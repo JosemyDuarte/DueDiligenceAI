@@ -8,6 +8,8 @@ Here you will find the implementation of a crew of AI agents that will investiga
 
 - Python 3.12 or higher
 - pip
+- ollama
+- +32GB of RAM (for the LLM model, can be reduced by using a smaller model)
 
 ## Installation
 
@@ -27,6 +29,13 @@ Here you will find the implementation of a crew of AI agents that will investiga
     ```bash
     pip install -r requirements.txt
     ```
+   
+5. Download local LLM model. I'm using [this one](https://ollama.com/library/mixtral:8x7b-instruct-v0.1-q6_K)
+    ```bash
+    ollama pull mixtral:8x7b-instruct-v0.1-q6_K
+    ```
+   
+**Note**: You can also use a different LLM model for the agents. Just replace the model name used for the `llm` variable on the `main.py` file.
 
 ## Usage
 
