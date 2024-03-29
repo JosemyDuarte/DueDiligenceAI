@@ -39,3 +39,7 @@ Here you will find the implementation of a crew of AI agents that will investiga
 2. Write the name of the company you are investigating
 
 3. Review the generated reports and insights on the console.
+
+Example report for **Twitter**
+
+<img width="1783" alt="image" src="https://github.com/JosemyDuarte/DueDiligenceAI/assets/6247860/3037d8f8-50f4-43c7-8876-394c35e5254f">
