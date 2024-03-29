@@ -8,7 +8,7 @@ Here you will find the implementation of a crew of AI agents that will investiga
 
 - Python 3.12 or higher
 - pip
-- ollama
+- [ollama](https://ollama.com/)
 - +32GB of RAM (for the LLM model, can be reduced by using a smaller model)
 
 ## Installation
